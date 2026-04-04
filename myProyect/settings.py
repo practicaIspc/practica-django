@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'app',
 ]
 
 MIDDLEWARE = [
@@ -74,8 +76,12 @@ WSGI_APPLICATION = 'myProyect.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql', # Motor para MySQL
+        'NAME': 'ispc_backend',               # Nombre de tu DB
+        'USER': 'root',                       # Tu usuario de MySQL
+        'PASSWORD': 'admin',           # Tu contraseña de MySQL
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
     }
 }
 
