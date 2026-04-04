@@ -78,8 +78,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Motor para MySQL
         'NAME': 'ispc_backend',               # Nombre de tu DB
-        'USER': 'root',                       # Tu usuario de MySQL
-        'PASSWORD': 'admin',           # Tu contraseña de MySQL
+        'USER': 'root',                       
+        'PASSWORD': 'admin',           
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
