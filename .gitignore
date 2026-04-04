@@ -1,0 +1,7 @@
+# Entorno virtual específico
+.venv/
+
+# Otros archivos de Python y Django
+__pycache__/
+*.pyc
+db.sqlite3
