@@ -1,5 +1,6 @@
 # Entorno virtual específico
 .venv/
+.env
 
 # Otros archivos de Python y Django
 __pycache__/
